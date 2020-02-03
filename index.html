@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lesson 16 Hillel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">    
+        <h2>Наводящая подсказка</h2>
+        <div class="flex-row">
+            <div class="hover-element" id="elem-1" data-text="Тут находится контент для первого элемента">Элемент 1</div>
+            <div class="hover-element" id="elem-2" data-text="Это следующий элемент">Элемент 2</div>
+            <div class="hover-element" id="elem-3" data-text="Или как говорят в простонародие - tooltips(или нет)">Элемент 3</div>
+        </div>
+        <hr>
+        <h2>Сворачивающиеся пункты</h2>
+        <div data-spoiler="#spoiler-1" class="spoiler" id="spoiler-1">
+            <h3><span class="fa">+</span>Сворачивающийся пункт</h3>
+            <div class="hidden-content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolor perspiciatis eius quas inventore dignissimos optio delectus! Itaque, velit eaque.</p>
+            </div>
+        </div>
+        <div data-spoiler="#spoiler-2" class="spoiler" id="spoiler-2">
+            <h3><span class="fa">+</span>Сворачивающийся пункт</h3>
+            <div class="hidden-content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quia accusantium dolorem quod obcaecati nemo quas a optio deleniti amet, dolore eum rerum praesentium soluta sed ullam, voluptates suscipit vero, labore autem esse. Minima repellat ipsa qui labore porro nam?</p>
+            </div>
+        </div>
+        <div data-spoiler="#spoiler-3" class="spoiler" id="spoiler-3">
+            <h3><span class="fa">+</span>Сворачивающийся пункт</h3>
+            <div class="hidden-content">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, in!</p>
+            </div>
+        </div>
+        <hr>
+        <h2>Tabulators</h2>
+        <div class="tabs">
+            <div class="tab-btns">
+                <button data-button="#tab1" class="tab-btn">Button 1</button>
+                <button data-button="#tab2" class="tab-btn">Button 2</button>
+                <button data-button="#tab3" class="tab-btn">Button 3</button>
+            </div>
+            <div class="tab-content">
+                <p class="tab-content__text" id="tab1">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt architecto est doloribus at hic assumenda ratione totam mollitia deleniti quo.
+                </p>
+                <p class="tab-content__text" id="tab2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde id maiores facere similique! Repellendus ipsam, quibusdam, distinctio harum necessitatibus, ipsum sit excepturi deleniti officiis voluptatem aliquid corrupti officia quisquam qui.
+                </p>
+                <p class="tab-content__text" id="tab3">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus saepe, veritatis, porro maiores mollitia ex eos hic quas quidem dolorem at in iusto laudantium fuga doloribus, tempore voluptas soluta esse. Voluptas dolore eius saepe maiores vel, ipsam libero molestias voluptatum, quod natus quas delectus incidunt amet. Beatae quae iure excepturi?
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
